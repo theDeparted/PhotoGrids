@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Picture Jumble</title>
+		<link rel="stylesheet" type="text/css" href="style.min.css">
+		<script type="text/javascript" src="photoMatrix.min.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.9.0.custom.min.js"></script>
+	</head>
+	<body onload="photo_matrix(4,4,30,125,75,250,21,'grid','img/','.jpg')">
+		<div class="content">
+			<div class="grid">
+			</div>
+			<div>
+				<h1>Usage</h1>
+				<ul>
+					<li>
+						<strong>
+							Create a div with a class of your choice
+						</strong>
+						<br/>
+						<i>
+							For the purpose of this example, I took it to be 'grid'.
+						</i>
+					</li>
+					<li>
+						<strong>
+							Create a collection of images and save them in a sequential order
+						</strong>
+						<br/>
+						<i>
+							I stored them in a 'img' folder with names from
+						</i>
+						<br/>
+						<i>
+							1 to 21 and extention '.jpg'.
+						</i>
+					</li>
+					<li>
+						<strong>
+							Decide a width and height of the images
+						</strong>
+						<br/>
+						<i>
+							I chose width = 125px and height = 75px
+						</i>
+					</li>
+					<li>
+						<strong>
+							Chose the size of buttons
+						</strong>
+						<br/>
+						<i>
+							I chose this to be 30px
+						</i>
+					</li>
+					<li>
+						<strong>
+							Finally chose number of rows and columns
+						</strong>
+						<br/>
+						<i>
+							I chose rows = 4 and columns = 4
+						</i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

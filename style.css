@@ -1,0 +1,102 @@
+body,
+.hide,
+.grid,
+.content,
+.up_button,
+.down_button,
+.left_button,
+.right_button,
+.corner_button
+{
+	padding:				0;
+	overflow: 				hidden;
+	text-align: 			center;
+	vertical-align: 		middle;
+}
+
+body,
+.content
+{
+	background-color:		#013;
+	margin:					auto;
+	width: 					100%;
+	height: 				100%;
+}
+.grid
+{
+	background-color:		#023;
+	margin: 				auto;
+	position:				relative;
+}
+.pic
+{
+	background-color:		#fff;
+	position:				fixed;
+	float:					left;
+}
+
+.hide,
+.up_button,
+.down_button,
+.left_button,
+.right_button,
+.corner_button
+{
+	background-color:		#35ae91;
+	background-repeat: 		no-repeat;
+	background-position:	center;
+	padding:				0;
+	float:					left;
+	position:				fixed;
+	display:				block;
+	opacity: 				0.8;
+}
+
+.corner_button
+{
+	background-color: 		#abe76a;
+	background-image: 		url('icons/riflescope.png');
+}
+.down_button
+{
+	background-image: 		url('icons/down.png');
+}
+.up_button
+{
+	background-image:		url('icons/up.png');
+}
+.left_button
+{
+	background-image: 		url('icons/left.png');
+}
+.right_button
+{
+	background-image: 		url('icons/right.png');
+}
+
+.up_button:hover,
+.down_button:hover,
+.left_button:hover,
+.right_button:hover,
+.corner_button:hover
+{
+	opacity: 				0.4;
+}
+
+.hide
+{
+	background-color:		#333;
+	display:				none;
+}
+
+ul
+{
+	text-align: 			left;
+	list-style-type: 		none;
+	margin-left: 			30%;
+}
+i
+{
+	margin-left: 			15%;
+	text-align: 			right;
+}
