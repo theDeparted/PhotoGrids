@@ -2,13 +2,28 @@
 	<head>
 		<title>Picture Jumble</title>
 		<link rel="stylesheet" type="text/css" href="style.min.css">
-		<script type="text/javascript" src="photoMatrix.min.js"></script>
+		<script type="text/javascript" src="photoMatrix_v_0_2.min.js"></script>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="jquery-ui-1.9.0.custom.min.js"></script>
+		<script type="text/javascript">
+			var grid;
+			var grid2;
+			function start()
+			{
+				grid = photoMatrix('grid');
+				grid.init(4,4,30,125,75,250,21,'grid','img/','.jpg');
+				grid2 = photoMatrix('grid2');
+				grid2.init(2,2,30,75,25,250,21,'grid2','img/','.jpg');
+			}
+		</script>
 	</head>
-	<body onload="photo_matrix(4,4,30,125,75,250,21,'grid','img/','.jpg')">
+	<body onload="start()">
 		<div class="content">
 			<div class="grid">
+			</div>
+			<p></p>
+			<p></p>
+			<div class="grid2">
 			</div>
 			<div>
 				<h1>Usage</h1>
